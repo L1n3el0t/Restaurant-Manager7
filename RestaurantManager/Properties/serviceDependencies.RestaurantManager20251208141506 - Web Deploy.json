@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/RestaurantManager20251208141506/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsRestaurantManagerContex_BE9BB55ADD",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/restaurantmanagerdbserver/databases/RestaurantManager_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:RestaurantManagerContext",
+      "dynamicId": null
+    }
+  }
+}
